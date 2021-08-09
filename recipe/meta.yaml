@@ -1,5 +1,5 @@
 {% set name = "nr.optional" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nr.optional-{{ version }}.tar.gz
-  sha256: 7f40a9b345e3d0c5d4329db8a588e04383edd04ba2dd1b2e64c03eaa597f3f97
+  sha256: 1b801f73f50389625722647f6befe15d5b43e507f73ce35569a13efaa2df4c08
 
 build:
   number: 0
